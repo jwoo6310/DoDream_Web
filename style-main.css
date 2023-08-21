@@ -3,15 +3,19 @@
 /* font lists */
 @font-face {
     font-family: 'menu';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+    src: url('HakgyoansimWoojuR.woff2') format('woff2'),
+        url('HakgyoansimWoojuR.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'body';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    src: url('TAEBAEKmilkyway.woff2') format('woff2'),
+        url('TAEBAEKmilkyway.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'a';

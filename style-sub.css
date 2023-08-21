@@ -3,15 +3,19 @@
 /* font lists */
 @font-face {
     font-family: 'menu';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+    src: url('HakgyoansimWoojuR.woff2') format('woff2'),
+        url('HakgyoansimWoojuR.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'body';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    src: url('TAEBAEKmilkyway.woff2') format('woff2'),
+        url('TAEBAEKmilkyway.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'o';
@@ -324,15 +328,16 @@ p3 {
 }
 
 @media (max-width: 1280px) {
-    .vertical-tab {
-        display: none;
-    }
     .content-container {
         max-width: 100%;
     }
-    .text-column2 {
-        margin-left: 50px;
-        width: 500px;
+    .text-column3 {
+        margin: 30px;
+        width: 60%;
+    }
+    .text-column4 {
+        margin: 30px;
+        width: 60%;
     }
 }
 
@@ -484,5 +489,15 @@ p3 {
         float: center;
         margin-left: 20px;
         aspect-ratio: 1/1;
+    }
+
+
+    .text-column3 {
+        margin: 20px;
+        width: 90%;
+    }
+    .text-column4 {
+        margin: 20px;
+        width: 90%;
     }
 }
