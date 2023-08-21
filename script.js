@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(function () {
     currentIndex = (currentIndex % 3) + 1;
     changeBackgroundImage(currentIndex);
-  }, 5000); // Change image every 10 seconds
+  }, 15000); // Change image every 10 seconds
 
   // Set the initial background image
   changeBackgroundImage(currentIndex);
