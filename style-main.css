@@ -350,6 +350,12 @@ section h3 {
 }
 
 @media (max-width: 500px) {
+    .background-image {
+        height: 500px;
+    }
+    .background-image {
+        background-position-x: -333px;
+    }
     .header-container {
         margin-left: 20px;
     }
@@ -365,37 +371,41 @@ section h3 {
         font-size: 18px;
     }
     nav ul ul {
-        left: -30px; /* adjust position */
+        left: -60px; /* adjust position */
     }
     .welcome {
         margin-top: 100px;
         margin-bottom: -200px;
     }
     section h1 {
-        font-size: 50px;
+        font-size: 60px;
+    }
+    .intro {
+        margin-bottom: 0;
+    }
+    .main-header {
+        width: 365px;
+        margin-left: 5px;
+    }
+    .pastor {
+        width: 130px;
     }
     section h2 {
-        font-size: 15px; /* Adjust the font size as needed */
-    }
-    .background-image {
-        height: 500px;
+        font-size: 19px; /* Adjust the font size as needed */
+        line-height: 0.3;
     }
     .direction iframe {
         width: 80%;
         height: auto;
         aspect-ratio: 1 / 1;
     }
-    .pastor {
-        width: 100px;
-    }
-    .direction {
-        margin-bottom: 10px;
-    }
+    
     .image-group {
         margin-top: 20px;
     }
-    .background-image {
-        background-position-x: -250px;
+    .youtube-video-container h3 {
+        font-size: 17px;
+        padding-top: 10px;
     }
     .youtube-video-container {
         width: 80%;
