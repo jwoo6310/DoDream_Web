@@ -4,7 +4,8 @@
 @font-face {
     font-family: 'menu';
     src: url('HakgyoansimWoojuR.woff2') format('woff2'),
-        url('HakgyoansimWoojuR.woff') format('woff');
+        url('HakgyoansimWoojuR.woff') format('woff'),
+        url('HakgyoansimWoojuR.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -12,7 +13,8 @@
 @font-face {
     font-family: 'body';
     src: url('TAEBAEKmilkyway.woff2') format('woff2'),
-        url('TAEBAEKmilkyway.woff') format('woff');
+        url('TAEBAEKmilkyway.woff') format('woff'),
+        url('TAEBAEKmilkyway.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
