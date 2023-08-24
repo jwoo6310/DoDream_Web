@@ -3,24 +3,26 @@
 /* font lists */
 @font-face {
     font-family: 'menu';
-    src: url('HakgyoansimWoojuR.woff2') format('woff2'),
-        url('HakgyoansimWoojuR.woff') format('woff');
+    src: url('assets/fonts/HakgyoansimWoojuR.woff2') format('woff2'),
+        url('assets/fonts/HakgyoansimWoojuR.woff') format('woff'),
+        url('assets/fonts/HakgyoansimWoojuR.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'body';
-    src: url('TAEBAEKmilkyway.woff2') format('woff2'),
-        url('TAEBAEKmilkyway.woff') format('woff');
+    src: url('assets/fonts/TAEBAEKmilkyway.woff2') format('woff2'),
+        url('assets/fonts/TAEBAEKmilkyway.woff') format('woff'),
+        url('assets/fonts/TAEBAEKmilkyway.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'o';
-    src: url('TTOhneulbamR.woff2') format('woff2'),
-        url('TTOhneulbamR.woff') format('woff');
+    src: url('assets/fonts/TTOhneulbamR.woff2') format('woff2'),
+        url('assets/fonts/TTOhneulbamR.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

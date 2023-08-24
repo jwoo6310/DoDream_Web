@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentIndex = parseInt(sessionStorage.getItem("backgroundIndex")) || 1;
 
   function changeBackgroundImage(backgroundNumber) {
-    backgroundElement.style.backgroundImage = `url('image-background${backgroundNumber}.png')`;
+    backgroundElement.style.backgroundImage = `url('assets/image-background${backgroundNumber}.jpg')`;
     currentIndex = backgroundNumber;
     sessionStorage.setItem("backgroundIndex", currentIndex);
   }
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(function () {
     currentIndex = (currentIndex % 3) + 1;
     changeBackgroundImage(currentIndex);
-  }, 15000); // Change image every 10 seconds
+  }, 10000); // Change image every 10 seconds
 
   // Set the initial background image
   changeBackgroundImage(currentIndex);
