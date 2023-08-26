@@ -2,7 +2,7 @@
 
 /* font lists */
 @font-face {
-    font-family: 'menu';
+    font-family: 'mnu';
     src: url('assets/fonts/HakgyoansimWoojuR.woff2') format('woff2'),
         url('assets/fonts/HakgyoansimWoojuR.woff') format('woff'),
         url('assets/fonts/HakgyoansimWoojuR.ttf') format('truetype');
@@ -30,6 +30,14 @@
     font-family: 'o';
     src: url('assets/fonts/TTOhneulbamR.woff2') format('woff2'),
         url('assets/fonts/TTOhneulbamR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'menu';
+    src: url('assets/fonts/TTBanditbulL.woff2') format('woff2'),
+        url('assets/fonts/TTBanditbulL.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
