@@ -556,7 +556,7 @@ p3 {
         padding-top: 15px;
     }
     nav > ul {
-        width: 80%; /* Make the menu items fill the container width */
+        width: 85%; /* Make the menu items fill the container width */
     }
     nav > ul > li > a {
         font-size: 18px;
