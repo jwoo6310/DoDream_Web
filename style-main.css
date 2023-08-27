@@ -454,7 +454,7 @@ section h3 {
 
 
     nav > ul {
-        width: 80%; /* Make the menu items fill the container width */
+        width: 85%; /* Make the menu items fill the container width */
     }
 
     .background-image {
