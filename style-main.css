@@ -410,10 +410,7 @@ section h3 {
     .welcome h1 {
         font-size: 80px; /* Adjust the font size as needed */
     }
-}
 
-
-@media (max-width: 500px) {
     .hexagon-container {
         position: relative;
         width: 200px; /* Adjust the size as needed */
@@ -447,11 +444,14 @@ section h3 {
     }
     .hexagon h2 {
         font-size: 15px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .hexagon h2 {
         margin-top: 30px;
     }
-
-
-
 
     nav > ul {
         width: 85%; /* Make the menu items fill the container width */
