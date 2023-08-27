@@ -451,22 +451,22 @@ section h3 {
 @media (max-width: 500px) {
     .hexagon:nth-child(1) {
         top: 3px;
-        left: -44px;
+        left: -54px;
         transform: translateX(0%);
     }
     .hexagon:nth-child(2) {
         top: 100px;
-        left: 20px;
+        left: 10px;
         transform: translateY(0%);
     }
     .hexagon:nth-child(3) {
         top: 3px;
-        left: 85px;
+        left: 75px;
         transform: translateY(0%);
     } 
     .hexagon:nth-child(4) {
         bottom: 270px;
-        left: 149px;
+        left: 139px;
         transform: translateX(0%);
     }
     .hexagon h2 {
