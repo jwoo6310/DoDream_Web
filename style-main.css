@@ -262,25 +262,6 @@ section {
     max-width: 600px;
     float: center;
 }
-
-section h3 {
-    font-family: 'menu', sans-serif;
-    font-size: 30px; /* Adjust the font size as needed */
-    color: black; /* Adjust the color as needed (this is red) */
-    font-weight: bold;
-    padding-top: 30px;
-}
-.main-header {
-    background-color: grey;
-    opacity: 30%;
-    border: 3px solid grey; /* Set the border width and color */
-    border-radius: 50%; /* Set the border radius to make it round */
-    padding: 10px 20px; /* Add padding inside the border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    width: 50%;
-}
-
-
 /* youtube */
 .youtube-video-container {
     width: 100%;
